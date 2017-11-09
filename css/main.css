@@ -1,6 +1,6 @@
 /* Globalt */
 
-body {
+/* body {
     font: 15px/1.5 Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
@@ -11,22 +11,22 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-}
+} */
 
 /* ================================================================================
 Common
 ================================================================================ */
-
+/* 
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
-}
+} */
 
 /* ================================================================================
 Header
 ================================================================================ */
-
+/* 
 header {
     background: #35424a;
     color: #ffffff;
@@ -69,12 +69,14 @@ header a:hover {
 
 #lang {
     font-size: 130%;
-}
+} */
+
+
 /* ================================================================================
 Showcase
 ================================================================================ */
 
-
+/* 
 #showcase {
     min-height: 800px;
     background: url("../img/showcase.jpg") no-repeat 0 0px;
@@ -91,14 +93,14 @@ Showcase
 
 #showcase p {
     font-size: 20px;
-}
+} */
 
 
 /* ================================================================================
 About
 ================================================================================ */
 
-.about-container {
+/* .about-container {
     display: flex;
     flex-direction: row;
     margin: 50px 0 50px 0;
@@ -110,9 +112,33 @@ About
 }
 
 #about-description {
-}
+} */
 
 
 /* ================================================================================
 Boxes
 ================================================================================ */
+
+
+
+
+
+header {
+    background: grey;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav p {
+    padding: 0 20px;
+}
+
+.jumbotron {
+    background: url(../img/showcase.jpg) no-repeat;
+    background-size: 100%;
+    height: 500px;
+}
