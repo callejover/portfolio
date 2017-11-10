@@ -121,10 +121,18 @@ Boxes
 
 
 
-
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
 header {
-    background: grey;
+    /* display: flex; */
+    text-align: center;
+    width: 100%;
+}
+
+header i {
+    margin: 10px;
 }
 
 nav {
@@ -148,3 +156,10 @@ figure img {
     width: 100%;   
 }
 
+#boxes {
+    text-align: center;
+}
+
+#boxes img {
+    max-width: 50%;
+}
