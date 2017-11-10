@@ -67,6 +67,11 @@ header a:hover {
     padding: 0 20px 0 20px;
 }
 
+.site-nav-button {
+    display: none;
+    font-size: 130%;
+}
+
 #lang {
     font-size: 130%;
 }
@@ -91,6 +96,7 @@ Showcase
 
 #showcase p {
     font-size: 20px;
+    margin: auto 10%;
 }
 
 
@@ -107,12 +113,25 @@ About
 #about-pic img {
     max-height: 500px;
     margin: 10px;
-}
-
-#about-description {
+    min-width: 200px;
 }
 
 
 /* ================================================================================
 Boxes
 ================================================================================ */
+
+.box-row {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+}
+
+.box p {
+    margin: 10px auto;
+    max-width: 300px;
+}
+
+.box img {
+    max-width: 40%;
+}
