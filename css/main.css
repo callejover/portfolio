@@ -1,10 +1,13 @@
 /* Globalt */
 
 body {
-    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    /* font: 15px/1.5 Arial, Helvetica, sans-serif; */
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 15px;
     padding: 0;
     margin: 0;
     background-color: #f4f4f4;
+    text-transform: uppercase;
 }
 
 ul {
@@ -14,48 +17,22 @@ ul {
 }
 
 /* ================================================================================
-Common
+Showcase Navigation
 ================================================================================ */
 
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-
-/* ================================================================================
-Header
-================================================================================ */
-
-header {
-    background: #35424a;
-    color: #ffffff;
-    padding-top: 20px;
-    min-height: 30px;
-    border-bottom: #e8491d 3px solid;
-}
-
-header a {
-    color: #ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-header a:hover {
-    color: #cccccc;
-    font-weight: bold;
-}
-
-#branding {
+#logo {
     font-size: 130%;
 }
 
 .nav-container {
+    /* background: #35424a; */
+    color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 20px 5%;
+    /* min-height:   40px; */
+    /* border-bottom: #e8491d 3px solid; */
 }
 
 .nav-container ul {
@@ -67,36 +44,94 @@ header a:hover {
     padding: 0 20px 0 20px;
 }
 
-.site-nav-button {
-    display: none;
-    font-size: 130%;
+.nav-container a {
+    color: #ffffff;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-size: 16px;
+    /* font-weight: bold; */
 }
 
-#lang {
+.nav-container a:hover {
+    color: #cccccc;
+    /* font-weight: bold; */
+}
+
+
+.site-nav-button {
+    display: none;
+    font-size: 250%;
+}
+
+#selections {
+    display: flex;
+    flex-direction: row;
+}
+
+#selections i {
+    padding-left: 10px;
     font-size: 130%;
 }
 /* ================================================================================
-Showcase
+Showcase Main Area
 ================================================================================ */
 
-
 #showcase {
+    display: flex;
+    flex-direction: column;
     min-height: 800px;
-    background: url("../img/showcase.jpg") no-repeat 0 0px;
-    background-size: 100%;
+    background: url("../img/ambient-showcase.jpg") no-repeat 0 0px;
+    background-size: cover;
     text-align: center;
     color: #ffffff;
 }
 
-#showcase h1 {
-    margin-top: 100px;
+.showcase-container h1 {
+    /* background: blue; */
+    text-align: center;
+    /* margin-top: 5%; */
     font-size: 55px;
-    margin-bottom: 10px;
+    /* margin-bottom: 5%; */
+    margin: 5%;
 }
 
-#showcase p {
+.showcase-container p {
+    /* background: red; */
+    text-align: center;
     font-size: 20px;
-    margin: auto 10%;
+    margin: 5%;
+}
+
+.scroll-container {
+    /* margin: auto 5% 10px 5%; */
+    /* background: yellow; */
+    margin-top: auto;
+    margin-bottom: 7%;
+}
+
+
+/* ================================================================================
+Boxes
+================================================================================ */
+
+.box-container {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    padding: 3%;
+}
+
+.box {
+    width: 100%;
+}
+
+.box p {
+    margin: 10px auto;
+    max-width: 300px;
+}
+
+.box img {
+    max-width: 60%;
 }
 
 
@@ -106,32 +141,74 @@ About
 
 .about-container {
     display: flex;
-    flex-direction: row;
-    margin: 50px 0 50px 0;
+    flex-direction: row-reverse;
+    color: #ffffff;
+    background: url("../img/ambient-about.jpg") no-repeat;
+    margin: 0 auto;
+    padding: 3%;
 }
 
 #about-pic img {
     max-height: 500px;
-    margin: 10px;
-    min-width: 200px;
+    margin: 10px auto;
+    min-width: 455px;
 }
 
 
 /* ================================================================================
-Boxes
+Projects
 ================================================================================ */
 
-.box-row {
+#projects {
+    background: lightgrey;
+}
+
+#project1 {
+    /* background: blue; */
     display: flex;
     flex-direction: row-reverse;
-    text-align: center;
+    margin: 0 10%;
+    padding: 30px 0;
 }
 
-.box p {
-    margin: 10px auto;
-    max-width: 300px;
+#project1-textarea {
+    /* background: red; */
 }
 
-.box img {
-    max-width: 40%;
+#project1-textarea h2 {
+    margin: 0;
+}
+
+#project1 img {
+    /* background: yellow; */
+    min-height: 100px;
+    margin-right: 50px;
+    padding: auto;
+}
+
+/* #project1-image {
+    display: flex;
+    justify-content: center;
+} */
+
+
+/* ================================================================================
+Contact
+================================================================================ */
+
+#portfolio-container {
+    background: blue;
+}
+
+
+/* ================================================================================
+Contact
+================================================================================ */
+
+#contact {
+    color: #ffffff;
+    background: black;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
 }

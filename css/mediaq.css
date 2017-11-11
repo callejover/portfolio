@@ -1,0 +1,35 @@
+@media only screen and (max-width: 700px) {
+
+    #logo, .site-nav {
+        display: none;
+    }
+
+    .site-nav-button {
+        display: inline-block;
+        text-align: center;
+        /* flex-direction: row; */
+        /* justify-content: flex; */
+    }
+
+    #showcase {
+        background-size: cover;
+    }
+
+    .about-container {
+        /* display: flex; */
+        flex-direction: column;
+        /* margin: 50px 0 50px 0; */
+    }
+
+    .box-container {
+        /* display: flex; */
+        flex-direction: column-reverse;
+        /* text-align: center; */
+    }
+
+    #about-pic {
+        display: flex;
+        justify-content: center;
+    }
+
+}
