@@ -1,4 +1,4 @@
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 990px) {
 
     #logo, .site-nav {
         display: none;
@@ -11,8 +11,19 @@
         /* justify-content: flex; */
     }
 
+    #selections i {
+        font-size: 170%;
+        padding: 10px;
+    }
+
     #showcase {
-        background-size: cover;
+        background-position: center;
+        /* background-position-x: 50px; */
+    }
+
+    .scroll-container {
+        margin-top: auto;
+        margin-bottom: 6%;
     }
 
     .about-container {
@@ -27,9 +38,54 @@
         /* text-align: center; */
     }
 
+    .box: {
+        margin: 20px;
+        padding: 10%;
+    }
+
+    .box img {
+        max-width: 40%;
+    }
+
     #about-pic {
         display: flex;
         justify-content: center;
+    }
+
+}
+
+/* =========================================================== */
+
+@media only screen and (max-width: 700px) {
+    #selections i {
+        font-size: 170%;
+        padding: 10px;
+    }
+    
+    .showcase-container h1 {
+        /* background: blue; */
+        /* text-align: center; */
+        /* margin-top: 5%; */
+        font-size: 80px;
+        /* margin-bottom: 1%; */
+    }
+
+    .showcase-container h2 {
+        /* background: red; */
+        font-size: 35px;
+        /* margin-top: 1%; */
+        /* margin-bottom: 5%; */
+    }
+
+    .scroll-container {
+        /* margin: auto 5% 10px 5%; */
+        /* background: yellow; */
+        margin-top: auto;
+        margin-bottom: 15%;
+    }
+
+    .box-container {
+        padding: 10%;
     }
 
 }
