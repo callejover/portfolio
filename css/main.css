@@ -85,7 +85,7 @@ Showcase Main Area
     justify-content: center;
     flex-direction: column;
     min-height: 800px;
-    background: url("../img/showcase.jpg") no-repeat 0 0px;
+    background: url("../img/showcase2.jpg") no-repeat 0 0px;
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -94,15 +94,15 @@ Showcase Main Area
 .showcase-container h1 {
     /* background: blue; */
     text-align: center;
-    margin-top: 5%;
+    margin-top: 2%;
     font-size: 155px;
-    margin-bottom: 1%;
+    margin-bottom: 0;
 }
 
 .showcase-container h2 {
     /* background: red; */
     font-size: 55px;
-    margin-top: 1%;
+    margin-top: 0;
     margin-bottom: 5%;
 }
 
@@ -159,7 +159,8 @@ About
 #about-pic img {
     max-height: 500px;
     margin: 10px auto;
-    min-width: 455px;
+    /* min-width: 750px; */
+    width: 100%;
 }
 
 
