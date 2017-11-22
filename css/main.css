@@ -58,10 +58,25 @@ Showcase Navigation
 
 .nav-container a:hover {
     color: #b3b3b3;
+    /* border-bottom: 2px solid #b3b3b3; */
+    cursor: pointer;
     /* font-weight: bold; */
 }
 
+.nav-container li::after {
+    content: '';
+    display: flex;
+    width: 0;
+    height: 3px;
+    margin: auto;
+    background: #b3b3b3;
+    transition: width .5s ease;
+}
 
+.nav-container li:hover::after {
+    width: 100%;
+}
+ 
 .site-nav-button {
     display: none;
     font-size: 250%;
@@ -75,6 +90,11 @@ Showcase Navigation
 #selections i {
     padding-left: 10px;
     font-size: 130%;
+}
+
+#selections i:hover {
+    color: #b3b3b3;
+    cursor: pointer;
 }
 /* ================================================================================
 Showcase Main Area
@@ -93,6 +113,7 @@ Showcase Main Area
 
 .showcase-container h1 {
     /* background: blue; */
+    font-weight: 400;
     text-align: center;
     margin-top: 2%;
     font-size: 155px;
@@ -113,6 +134,11 @@ Showcase Main Area
     margin-bottom: 3%;
 }
 
+.scroll-container:hover {
+    color: #b3b3b3;
+    cursor: pointer;
+}
+
 .scroll-container p {
     margin-top: 5px;
 }
@@ -127,6 +153,8 @@ Boxes
     text-align: center;
     padding: 3%;
     color:#737373;
+    /* color:#f2f2f2; */
+    /* background-color: #0d0d0d */
 }
 
 .box {
@@ -182,10 +210,6 @@ Projects
     padding: 30px 0;
 }
 
-#project1-textarea h2 {
-    margin: 0;
-}
-
 #project1 img {
     /* background: yellow; */
     min-height: 100px;
@@ -193,11 +217,25 @@ Projects
     padding: auto;
 }
 
-/* #project1-image {
-    display: flex;
-    justify-content: center;
-} */
+#project1-textarea h2 {
+    margin: 0;
+}
 
+#project1-read-more {
+    display: flex;
+    flex-direction: row;
+}
+
+#project1-read-more i {
+    color:#737373;
+    font-size: 200%;
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
+#project1-read-more i:hover {
+    color: #333333;
+}
 
 /* ================================================================================
 Portfolio
@@ -241,6 +279,15 @@ Contact
     font-size: 16px;
 }
 
+#contact a {
+    color: #b3b3b3;
+}
+
 #contact i {
     font-size: 350%;
+}
+ 
+#contact i:hover {
+    color: #737373;
+    cursor: pointer;
 }
