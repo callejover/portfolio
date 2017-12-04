@@ -21,9 +21,6 @@ h2 {
     font-size: 30px;
 }
 
-i {
-    /* position: absolute; */
-}
 
 /* ================================================================================
 Showcase Navigation
@@ -106,7 +103,7 @@ Showcase Main Area
 
 #showcase {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
     min-height: 800px;
     background: url("../img/showcase2.jpg") no-repeat 0 0px;
@@ -128,22 +125,30 @@ Showcase Main Area
     /* background: red; */
     font-size: 55px;
     margin-top: 0;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
 }
 
-.scroll-container {
+.timer-to-hire {
+    margin-top: auto;
+}
+
+#timer {
+    font-size: 25px;
+}
+
+.arrow-down {
     /* margin: auto 5% 10px 5%; */
     /* background: yellow; */
-    margin-top: auto;
+    margin-top: 10px;
     margin-bottom: 3%;
 }
 
-.scroll-container:hover {
+.arrow-down:hover {
     color: #b3b3b3;
     cursor: pointer;
 }
 
-.scroll-container p {
+.arrow-down p {
     margin-top: 5px;
 }
 
@@ -172,6 +177,7 @@ Boxes
 
 .box img {
     max-width: 60%;
+    filter: grayscale(100%);
 }
 
 
@@ -218,7 +224,6 @@ Projects
     /* background: yellow; */
     min-height: 100px;
     margin-right: 50px;
-    padding: auto;
 }
 
 #project1-textarea h2 {

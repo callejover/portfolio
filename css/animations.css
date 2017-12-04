@@ -1,3 +1,8 @@
+
+/* ================================================================================
+Showcase Main Area
+================================================================================ */
+
 .fa-angle-down {
     animation: bounce .5s infinite;
     animation-direction: alternate;
@@ -6,4 +11,12 @@
 @keyframes bounce {
     from {transform: translateY(-10px)}
     to {transform: translateY(0px)}
+}
+
+.fa-github {
+    transition: 0.5s ease;
+}
+
+.fa-github:hover {
+    transform: scale(1.1);
 }

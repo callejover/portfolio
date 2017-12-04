@@ -16,9 +16,9 @@
         padding: 10px;
     }
 
-    .scroll-container {
-        margin-top: auto;
-        margin-bottom: 6%;
+    .arrow-down {
+        /* margin-top: auto; */
+        margin-bottom: 50px;
     }
 
     .about-container {
@@ -73,12 +73,15 @@
         /* margin-bottom: 5%; */
     }
 
-    .scroll-container {
+    .timer-to-hire {
+        margin-top: auto;
+    }
+
+    .arrow-down {
         /* margin: auto 5% 10px 5%; */
         /* background: yellow; */
-        margin-top: auto;
-        margin-bottom: 300px;
-        color: #333333; 
+        /* margin-top: auto; */
+        margin-bottom: 50px;
     }
 
     .box-container {
