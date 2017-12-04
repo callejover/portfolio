@@ -19,3 +19,14 @@ var counter = setInterval(function() {
         document.querySelector(".#timer").innerHTML = "Tillgänglig för jobb";
     }
 }, 1000);
+
+
+// Javascript for toggeling the hamburger menu.
+
+// function toggle(x) {
+//     x.classList.toggle("hamburger");
+// }
+
+function navToggle(x) {
+    x.classList.toggle("change");
+}

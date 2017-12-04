@@ -79,8 +79,17 @@ Showcase Navigation
 }
  
 .site-nav-button {
-    display: none;
-    font-size: 250%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#bar1, #bar2, #bar3 {
+    height: 5px;
+    width: 35px;
+    border-radius: 20%;
+    background: #f2f2f2;
+    margin: 6px 0;
+    transition: 0.7s;
 }
 
 #selections {

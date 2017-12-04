@@ -3,6 +3,22 @@
 Showcase Main Area
 ================================================================================ */
 
+/* site-nav-button */
+
+.change #bar1 {
+    transform: rotate(315deg) translate(-9px, 6px);
+}
+
+.change #bar2 {
+    transform: translateY(20px);
+}
+
+.change #bar3 {
+    transform: rotate(-315deg) translate(-8px, -8px);
+}
+
+/* arrow-down */
+
 .fa-angle-down {
     animation: bounce .5s infinite;
     animation-direction: alternate;
