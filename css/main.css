@@ -1,7 +1,4 @@
-/* Globalt */
-
 body {
-    /* font-family: 'Barlow Condensed', sans-serif; */
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 15px;
     color: #f2f2f2;
@@ -21,98 +18,37 @@ h2 {
     font-size: 30px;
 }
 
+a {
+    text-decoration: none;
+}
 
 /* ================================================================================
 Showcase Navigation
 ================================================================================ */
 
-#logo {
-    font-size: 130%;
-}
-
-.nav-container {
-    /* background: #35424a; */
+.navigation {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 20px 5%;
-    /* min-height:   40px; */
-    /* border-bottom: #e8491d 3px solid; */
+    justify-content: center;
 }
 
-.nav-container ul {
-    display: flex;
-    flex-direction: row;
+.navigation a {
+    color: #f2f2f2; 
+    padding: 10px;
+    font-size: 20px;
 }
 
-.nav-container li {
-    padding: 0 20px 0 20px;
+.navigation a:hover {
+    transition: 0.5s ease;
+    color:#737373;
 }
 
-.nav-container a {
-    color:#f2f2f2;
-    text-decoration: none;
-    /* text-transform: uppercase; */
-    font-size: 16px;
-    /* font-weight: bold; */
-}
-
-.nav-container a:hover {
-    color: #b3b3b3;
-    /* border-bottom: 2px solid #b3b3b3; */
-    cursor: pointer;
-    /* font-weight: bold; */
-}
-
-.nav-container li::after {
-    content: '';
-    display: flex;
-    width: 0;
-    height: 3px;
-    margin: auto;
-    background: #b3b3b3;
-    transition: width .5s ease;
-}
-
-.nav-container li:hover::after {
-    width: 100%;
-}
- 
-.site-nav-button {
-    display: inline-block;
-    cursor: pointer;
-}
-
-#bar1, #bar2, #bar3 {
-    height: 5px;
-    width: 35px;
-    border-radius: 20%;
-    background: #f2f2f2;
-    margin: 6px 0;
-    transition: 0.7s;
-}
-
-#selections {
-    display: flex;
-    flex-direction: row;
-}
-
-#selections i {
-    padding-left: 10px;
-    font-size: 130%;
-}
-
-#selections i:hover {
-    color: #b3b3b3;
-    cursor: pointer;
-}
 /* ================================================================================
 Showcase Main Area
 ================================================================================ */
 
 #showcase {
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
     min-height: 800px;
     background: url("../img/showcase2.jpg") no-repeat 0 0px;
@@ -122,7 +58,6 @@ Showcase Main Area
 }
 
 .showcase-container h1 {
-    /* background: blue; */
     font-weight: 400;
     text-align: center;
     margin-top: 2%;
@@ -131,10 +66,8 @@ Showcase Main Area
 }
 
 .showcase-container h2 {
-    /* background: red; */
     font-size: 55px;
     margin-top: 0;
-    /* margin-bottom: 5%; */
 }
 
 .timer-to-hire {
@@ -146,15 +79,8 @@ Showcase Main Area
 }
 
 .arrow-down {
-    /* margin: auto 5% 10px 5%; */
-    /* background: yellow; */
     margin-top: 10px;
     margin-bottom: 3%;
-}
-
-.arrow-down:hover {
-    color: #b3b3b3;
-    cursor: pointer;
 }
 
 .arrow-down p {
@@ -171,24 +97,16 @@ Boxes
     text-align: center;
     padding: 3%;
     color:#737373;
-    /* color:#f2f2f2; */
-    /* background-color: #0d0d0d */
 }
 
 .box {
     width: 100%;
 }
 
-.box p {
-    margin: 10px auto;
-    max-width: 300px;
-}
-
 .box img {
-    max-width: 60%;
+    max-width: 50%;
     filter: grayscale(100%);
 }
-
 
 /* ================================================================================
 About
@@ -203,26 +121,16 @@ About
     padding: 3%;
 }
 
-#about-pic img {
-    max-height: 500px;
-    margin: 10px auto;
-    /* min-width: 750px; */
-    width: 100%;
-}
-
-
 /* ================================================================================
 Projects
 ================================================================================ */
 
 #projects {
-    /* background:#e6e6e6; */
     background: #d9d9d9;
     color:#737373;
 }
 
 #project1 {
-    /* background: blue; */
     display: flex;
     flex-direction: row-reverse;
     margin: 0 10%;
@@ -230,7 +138,6 @@ Projects
 }
 
 #project1 img {
-    /* background: yellow; */
     min-height: 100px;
     margin-right: 50px;
 }
